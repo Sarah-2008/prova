@@ -1,0 +1,82 @@
+/* Título principal */
+.titulo-principal {
+  text-align: center;
+  padding: 30px 0;
+  background-color: white;
+}
+
+.titulo-principal h1 {
+  font-size: 50px;
+  letter-spacing: 2px; 
+  /* deixa as letras espaçadas bonitinhas */
+  color: #000;
+}
+
+/* Seções alternadas */
+.secao {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 40px;
+  background-color: bisque;
+}
+
+.secao.invertida {
+  flex-direction: row-reverse;
+}
+
+.texto {
+  width: 45%;
+}
+
+.texto h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-size: 20px;
+}
+
+#missao{
+  height: 350px;
+  width: 400px;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+#separacao{
+  width: 400px;
+  height: 400px;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+#natureza{
+  height: 300px;
+   width: 400px;
+  border-radius: 10px;
+}
+
+/* Galeria */
+.galeria {
+  text-align: center;
+  padding: 50px 80px;
+  background-color: white;
+}
+
+.galeria h1 {
+  margin-bottom: 20px;
+}
+
+.area-galeria {
+  height: 300px;
+  border-radius: 10px;
+}
+
+#img{
+  height: 300px;
+  width: 500px;
+  border-radius: 10px;
+}
