@@ -112,18 +112,20 @@ main{
 }
 
 /* lado esquerdo e direito */
+
 #container {
     display: flex;
     justify-content: space-between; 
     align-items: flex-start; 
     gap: 20px; 
-    height: 100px;
     padding: 20px;
 }
 
 /* Cards empilhados verticalmente */
 
 #cards-container {
+    border-top: 10px solid white;
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 20px; 
@@ -169,6 +171,8 @@ main{
 /* Sidebar */
 
 .sidebar {
+    border-top: 10px solid white;
+    padding-top: 50px;
     margin-left: 100px;
     display: flex;
     flex-direction: column;
@@ -178,8 +182,15 @@ main{
 }
 
 .search-box {
+    border: black;
     display: flex;
     gap: 10px;
+}
+
+.sidebar-section{
+    border: black;
+    background-color: #a7a1a1;
+    padding: 10px;
 }
 
 .search-box input {
@@ -191,12 +202,70 @@ main{
     padding: 8px;
 }
 
+/* parte de baixo */
+
+#networking {
+  background-color: #d3cece; 
+  padding: 60px 80px;
+  margin-bottom: 0;
+}
+
+.titulo-central {
+  text-align: center;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.texto {
+  max-width: 45%;
+}
+
+.texto h3 {
+  font-weight: normal;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  color: #000;
+}
+
+.blocos {
+  display: flex;
+  gap: 20px;
+}
+
+.bloco {
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.bloco img {
+  width: 200px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.bloco:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+
 /* Footer */
 
 footer {
-    background-color: bisque;
-    padding: 50px 0px;
-    margin-top: 500px;
-    text-align: center;
-}  
+  background-color: bisque;
+  padding: 30px 0;
+  text-align: center;
+  margin-top: 0;
+}
+
 
