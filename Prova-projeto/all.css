@@ -168,7 +168,7 @@ main{
     border-radius: 50%;
 }
 
-/* Sidebar */
+/* Sidebar que é o ladodireito */
 
 .sidebar {
     border-top: 10px solid white;
@@ -194,7 +194,6 @@ main{
 }
 
 .search-box input {
-    flex: 1;
     padding: 8px;
 }
 
